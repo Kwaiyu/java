@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java" />
+        <module name="junit-platform-launcher" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="java" target="11" />
+      <module name="junit-platform-launcher" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
