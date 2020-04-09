@@ -1,6 +1,7 @@
 package com.lsaiah.java;
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.LinkedList;
 
 public class StackDemo {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class StackDemo {
 
     static String toHex(int n) {
         //创建一个空栈，通过Deque实现
-        Deque<Character> dq = new ArrayDeque<>();
+        Deque<Character> dq = new LinkedList<>();
         //循环计算12500%16=0压入栈
         for (int i=n; i !=0; i= i/16){
             int remainder = i%16;
